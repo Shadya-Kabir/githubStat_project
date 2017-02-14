@@ -1,0 +1,167 @@
+.App {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.App-logo {
+  
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  opacity: .5;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.btn-sm{
+  margin-top: 15px;
+  margin-right: 2px;
+}
+
+.App-intro {
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  position: relative;
+  top: -15px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.description{
+  font-size: 10px;
+  overflow: hidden;
+  height: 40px;
+}
+.searchform{
+  width:375px;
+  border-radius: 20px;
+  background: #fff;
+  outline: none;
+  text-align: center;
+}
+button{
+  outline:none;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+.container_item{
+  border-style: solid;
+  padding: 10px;
+  margin: 15px;
+  height: 140px;
+  position: relative;
+  text-decoration: none;
+  box-shadow: 10px 10px 5px #888888;
+}
+.title{
+  overflow: hidden;
+  height: 20px;
+}
+.container_item:hover{
+ border-color: lightslategray;
+ background-color: lightslategray;
+}
+.badge{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+a:hover {
+  text-decoration: none;
+}
+.svgGraph{
+  margin-top: 0px;
+}
+.graph .labels.x-labels {
+  text-anchor: middle;
+}
+
+.graph .labels.y-labels {
+  text-anchor: middle;
+}
+
+
+.graph {
+  height: 500px;
+  width: 800px;
+}
+
+.graphtitle{
+  font-size: 16px;
+  text-decoration: underline;
+}
+.graph .grid {
+  stroke: #ccc;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+.axis{
+  stroke: black;
+  stroke-width: 2;
+  stroke-dasharray: 0;
+}
+
+.labels {
+  font-size: 13px;
+}
+
+.form-group{
+  margin: 40;
+}
+
+.label-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  fill: black;
+}
+
+.data {
+  fill: red;
+  stroke-width: 1; 
+  stroke: darkslategray;
+}
+.Repoinfo{
+  position:relative;
+  top: -100px;
+}
+.repodetails{
+  position:relative;
+  top: 50px;
+  /*border-style: solid;*/
+}
+.ownericon{
+  position: relative;
+  height: 50%;
+  width: 50%;
+}
+.pointLabel{
+  opacity: 0;
+  stroke: black;
+  stroke-width: .5;
+  fill: black;
+  font-size: 12px;
+}
+.lineData:hover + .pointLabel{
+  opacity: 1;
+}
+.lineData{
+  opacity: 0;
+  
+}
+.descriptionbadge{
+  position: relative;
+  top: 160px;
+  right: 280px;
+
+}
+.circlePoint{
+  fill:red;
+}
